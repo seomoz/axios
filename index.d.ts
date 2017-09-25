@@ -14,6 +14,7 @@ export interface AxiosBasicCredentials {
 export interface AxiosProxyConfig {
   host: string;
   port: number;
+  protocol?: string;
 }
 
 export interface AxiosRequestConfig {
